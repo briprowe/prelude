@@ -1,0 +1,3 @@
+[submodule "themes/railscast-theme"]
+	path = themes/railscast-theme
+	url = git@github.com:itiut/railscasts-theme.git
