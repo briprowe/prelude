@@ -58,18 +58,18 @@
     git-timemachine
     gitconfig-mode
     gitignore-mode
-    god-mode
+;    god-mode
     grizzl
     guru-mode
     ov
     projectile
     magit
-    move-text
+;    move-text
     operate-on-number
     smartparens
     smartrep
     undo-tree
-    volatile-highlights
+;    volatile-highlights
     zenburn-theme
     zop-to-char)
   "A list of packages to ensure are installed at launch.")

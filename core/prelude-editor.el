@@ -190,9 +190,10 @@ The body of the advice is in BODY."
 ;; highlight the current line
 (global-hl-line-mode +1)
 
-(require 'volatile-highlights)
-(volatile-highlights-mode t)
-(diminish 'volatile-highlights-mode)
+;; VOLATILE
+;(require 'volatile-highlights)
+;(volatile-highlights-mode t)
+;(diminish 'volatile-highlights-mode)
 
 ;; note - this should be after volatile-highlights is required
 ;; add the ability to cut the current line, without marking it
