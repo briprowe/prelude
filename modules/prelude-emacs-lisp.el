@@ -110,7 +110,7 @@ Start `ielm' if it's not already running."
 (defun conditionally-enable-smartparens-mode ()
   "Enable `smartparens-mode' in the minibuffer, during `eval-expression'."
   (if (eq this-command 'eval-expression)
-      (smartparens-mode 1)))
+      (paredit-mode +1)))
 
 (add-hook 'minibuffer-setup-hook 'conditionally-enable-smartparens-mode)
 

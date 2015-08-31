@@ -497,7 +497,8 @@ With a prefix argument ARG, find the `user-init-file' instead."
   "Create a wrapper function for smartparens using S."
   `(lambda (&optional arg)
      (interactive "P")
-     (sp-wrap-with-pair ,s)))
+     ;; (sp-wrap-with-pair ,s)
+     ))
 
 ;; needed for prelude-goto-symbol
 (require 'imenu)
