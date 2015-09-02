@@ -75,8 +75,7 @@ This functions should be added to the hooks of major modes for programming."
     (guru-mode +1))
   (prelude-enable-whitespace)
   (prelude-local-comment-auto-fill)
-  (prelude-font-lock-comment-annotations)
-  (highlight-symbol-mode))
+  (prelude-font-lock-comment-annotations))
 
 (setq prelude-prog-mode-hook 'prelude-prog-mode-defaults)
 
