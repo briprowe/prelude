@@ -45,6 +45,7 @@ This functions should be added to the hooks of major modes for programming."
 
 ;; show the name of the current function definition in the modeline
 (require 'which-func)
+(require 'highlight-symbol)
 (which-function-mode 1)
 
 ;; in Emacs 24 programming major modes generally derive from a common
@@ -74,7 +75,8 @@ This functions should be added to the hooks of major modes for programming."
     (guru-mode +1))
   (prelude-enable-whitespace)
   (prelude-local-comment-auto-fill)
-  (prelude-font-lock-comment-annotations))
+  (prelude-font-lock-comment-annotations)
+  (highlight-symbol-mode))
 
 (setq prelude-prog-mode-hook 'prelude-prog-mode-defaults)
 
