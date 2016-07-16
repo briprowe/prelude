@@ -1,3 +1,15 @@
 [submodule "themes/railscast-theme"]
 	path = themes/railscast-theme
 	url = git@github.com:itiut/railscasts-theme.git
+[submodule "rust/rust-mode"]
+	path = rust/rust-mode
+	url = git@github.com:rust-lang/rust-mode.git
+[submodule "rust/flycheck-rust"]
+	path = rust/flycheck-rust
+	url = git@github.com:flycheck/flycheck-rust.git
+[submodule "rust/company-racer"]
+	path = rust/company-racer
+	url = git@github.com:emacs-pe/company-racer.git
+[submodule "rust/emacs-racer"]
+	path = rust/emacs-racer
+	url = git@github.com:racer-rust/emacs-racer.git
